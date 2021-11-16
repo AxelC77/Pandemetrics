@@ -11,7 +11,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  padding-left: 150px;
+  padding-left: 50px;
 }
 
 .navigationbar .leftSide img {
@@ -19,7 +19,7 @@
 }
 
 .navigationbar .rightSide {
-  flex: 50%;
+  flex: 20%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -41,29 +41,4 @@
 
 .navigationbar .rightSide svg {
   font-size: 40px;
-}
-
-.navigationbar #open {
-  padding-left: 0px;
-}
-.navigationbar #open img {
-  display: none;
-}
-
-.navigationbar #close img {
-  display: inherit;
-}
-
-.navigationbar #open .hiddenLinks {
-  display: inherit;
-  margin-left: 30px;
-}
-
-.navigationbar #close .hiddenLinks {
-  display: none;
-}
-
-.navigationbar #open a {
-  width: 70px;
-  margin: 5px;
 }

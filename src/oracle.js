@@ -8,12 +8,15 @@ async function oracle(){
             password:'xgiPRzfyJa3m6NFhGqi0Uycl',
             connectString:'oracle.cise.ufl.edu/orcl'
         });
-        const result = await connection.execute('SELECT COUNT(*) FROM XKE.person WHERE "Weight" > 300');
-        return result;
+        const result = await connection.execute('SELECT COUNT(*) FROM XKE.COVIDCASE');
+        console.log('result',result.rows);
     }
     catch(e){
         console.log('exception',e);
     }
 }
 
-export default oracle
+oracle();
+
+// PERSON table is in CBURDITT1
+// COVIDCASE and USSTATE tables are in XKE
