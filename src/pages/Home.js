@@ -1,9 +1,7 @@
 import React from 'react'
 
 function Home() {
-    return ( < div >
-        Hey < /div>
-    )
-}
+    return ( <div> nospace </div>)
+    }
 
-export default Home
+    export default Home
