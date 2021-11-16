@@ -5,7 +5,7 @@
 2. Make sure you have nodejs installed
 https://nodejs.org/
 
-3. Install oracledb driver locally and oracle instant developer basic, follow directions on setting the instant developer PATH to environment variables
+3. Install oracledb driver locally and oracle instant developer basic lite, follow directions on setting the instant developer PATH to environment variables
 http://oracle.github.io/node-oracledb/INSTALL.html#instwinoh
 
 3. Download Visual Studio 2017 Redistributable (required by instant developer)
