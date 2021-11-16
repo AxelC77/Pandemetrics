@@ -1,7 +1,7 @@
-const { dbObjectAsPojo } = require('oracledb');
+
 const oracledb = require('oracledb');
 
-async function selectValues(){
+async function oracle(){
     try{
         const connection = await oracledb.getConnection({
             user:'mmarchio',
@@ -9,11 +9,11 @@ async function selectValues(){
             connectString:'oracle.cise.ufl.edu/orcl'
         });
         const result = await connection.execute('SELECT COUNT(*) FROM XKE.person WHERE "Weight" > 300');
-        console.log('result',result.rows);
+        return result;
     }
     catch(e){
         console.log('exception',e);
     }
 }
 
-selectValues();
+export default oracle

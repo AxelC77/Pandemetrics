@@ -1,0 +1,8 @@
+.header1 {
+  display: flex;
+  align-self: center;
+}
+
+.logo {
+  align-self: center;
+}

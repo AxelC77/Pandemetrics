@@ -7,7 +7,7 @@ function NavigationBar() {
     return (
         <div className="navigationbar">
             <div className="leftSide">
-                <Link to="/"> <img src={bamboo} /> </Link>
+                <Link to="/"> <img src={bamboo} alt=''/> </Link>
             </div>
             <div className="rightSide">
                 <Link to="/home"> Home </Link>
